@@ -1,0 +1,150 @@
+{
+	"code": "bigbread",
+	"behaviors": [
+		{
+			"name": "Sliceable",
+			"properties": {
+				"blockhelp": "mymodestfoodad:blockhelp-sliceable-cut",
+				"sliceItemCode": "mymodestfoodad:bigbreadslice-{type}-{state}",
+				"slicedBlockCode": "mymodestfoodad:bigbread-{type}-{state}",
+				"numberOfSlices": 5
+			}
+		}
+	],
+	"creativeinventory": {
+		"general": [ "" ]
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ]
+		},
+		{
+			"code": "state",
+			"states": [ "partbaked", "perfect", "charred" ]
+		},
+		{
+			"code": "numberofslices",
+			"states": [ "2slice", "3slice", "4slice", "full" ]
+		}
+	],
+	"attributes": {
+		"mapColorCode": "settlement"
+	},
+	"blockmaterial": "Soil",
+	"drawtype": "json",
+	"shape": {
+		"base": "mymodestfoodad:block/bread/bigbread-{numberofslices}"
+	},
+	"textures": {
+		"bigbread": { "base": "mymodestfoodad:block/bread/bigbread" }
+	},
+	"lightAbsorption": 0,
+	"sidesolid": { "all": false },
+	"sideopaque": { "all": false },
+	"replaceable": 100,
+	"resistance": 0.25,
+	"collisionSelectionBox": {
+		"x1": 0.375,
+		"y1": 0,
+		"z1": 0.15625,
+		"x2": 0.625,
+		"y2": 0.295625,
+		"z2": 0.84375
+	},
+	"drops": [],
+	"materialDensity": 1100,
+	"transitionablePropsByType": {
+		"*-partbaked": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 120 },
+				"transitionHours": { "avg": 36 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "rot"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-perfect": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 192 },
+				"transitionHours": { "avg": 36 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "rot"
+				},
+				"transitionRatio": 1
+			}
+		],
+		"*-charred": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 288 },
+				"transitionHours": { "avg": 36 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "rot"
+				},
+				"transitionRatio": 1
+			}
+		]
+	},
+
+	"guiTransform": {
+		"translation": {
+			"x": 0,
+			"y": -2,
+			"z": 0
+		},
+		"rotation": {
+			"x": -22.6,
+			"y": -34,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0.2,
+			"z": 0.5
+		},
+		"scale": 2.46
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": -1.1,
+			"y": -0.1,
+			"z": 0.4
+		},
+		"rotation": {
+			"x": 7,
+			"y": -33,
+			"z": -13
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.75
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": -45,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 3
+	}
+}

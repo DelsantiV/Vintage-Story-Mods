@@ -1,0 +1,16 @@
+{
+  "template-lang-1": "Template Lang 1",
+  "template-lang-2": "Template Lang 2",
+
+  "item-vegetable-overmaturecarrot": "Overmature Carrot",
+  "item-vegetable-overmaturecabbage": "Overmature Cabbage",
+  "item-vegetable-overmatureonion": "Overmature Onion",
+  "item-vegetable-overmatureparsnip": "Overmature Parsnip",
+  "item-vegetable-overmatureturnip": "Overmature Turnip",
+
+  "game:block-crop-carrot-8": "Overmature carrots",
+  "game:block-crop-cabbage-13": "Overmature cabbage",
+  "game:block-crop-onion-8": "Overmature onions",
+  "game:block-crop-parsnip-9": "Overmature parsnips",
+  "game:block-crop-turnip-6": "Overmature turnips",
+}

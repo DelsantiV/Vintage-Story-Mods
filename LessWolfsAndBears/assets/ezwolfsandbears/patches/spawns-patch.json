@@ -1,0 +1,50 @@
+[
+    	{
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/bear-male-*/runtime/chance",
+		"value": 0.00002,
+		"file": "game:entities/land/bear.json"
+	},
+	{
+		"op": "replace",
+		"path": "/server/spawnconditionsByType/bear-male-*/worldgen/TriesPerChunk/avg",
+		"value": 0.01,
+		"file": "game:entities/land/bear.json"
+	},
+    	{
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/chance",
+		"value": 0.00005,
+		"file": "game:entities/land/wolf-male.json"
+	},
+    	{
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/maxQuantity",
+		"value": 4,
+		"file": "game:entities/land/wolf-male.json"
+	},
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions/worldgen/TriesPerChunk/avg",
+		"value": 0.03,
+		"file": "game:entities/land/wolf-male.json"
+	},
+	{
+		"op": "replace",
+		"path": "/server/spawnconditions/worldgen/groupSize/var",
+		"value": 1,
+		"file": "game:entities/land/wolf-male.json"
+	},
+	{
+		"file": "game:entities/land/wolf-male.json",
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/minForest",
+		"value": 0.6
+	},
+	{
+		"file": "game:entities/land/wolf-male.json",
+		"op": "replace",
+		"path": "/server/spawnconditions/runtime/maxTemp",
+		"value": 12
+	}
+]

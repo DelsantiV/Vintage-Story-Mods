@@ -1,0 +1,120 @@
+{
+	"code": "bigbreadslice",
+	"maxstacksizeByType": {
+		"*-charred": 48,
+		"*": 32
+	},
+	"attributes": {
+		"displaycaseable": true,
+		"shelvable": true,
+		"nutritionMulByType": {
+			"*-partbaked": 0.9,
+			"*-perfect": 1,
+			"*-charred": 0.8
+		}
+	},
+	"variantgroups": [
+		{
+			"code": "type",
+			"states": [ "spelt", "rye", "flax", "rice", "cassava", "amaranth", "sunflower" ]
+		},
+		{
+			"code": "state",
+			"states": [ "partbaked", "perfect", "charred" ]
+		}
+	],
+	"shape": {
+		"base": "mymodestfoodad:item/bread/bigbreadslice"
+	},
+	"textures": {
+		"bigbread": { "base": "mymodestfoodad:block/bread/bigbread" }
+	},
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"materialDensity": 700,
+	"nutritionPropsByType": {
+		"rice-*": {
+			"saturation": 200,
+			"health": 0,
+			"foodcategory": "Grain"
+		},
+		"flax-*": {
+			"saturation": 80,
+			"health": 0,
+			"foodcategory": "Grain"
+		},
+		"*": {
+			"saturation": 150,
+			"health": 0,
+			"foodcategory": "Grain"
+		}
+	},
+	"transitionableProps": [
+		{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": {
+				"type": "item",
+				"code": "game:rot"
+			},
+			"transitionRatio": 1
+		}
+	],
+	"guiTransform": {
+		"translation": {
+			"x": -5,
+			"y": 7,
+			"z": 0
+		},
+		"rotation": {
+			"x": 15,
+			"y": -25,
+			"z": -163
+		},
+		"origin": {
+			"x": 0.8,
+			"y": 0.18,
+			"z": 0
+		},
+		"scale": 3.94
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": 0.1,
+			"y": 0.5,
+			"z": -0.5
+		},
+		"rotation": {
+			"x": 90,
+			"y": 180,
+			"z": 108
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.93
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0.5,
+			"y": 0,
+			"z": 0.5
+		},
+		"scale": 4.13
+	}
+}

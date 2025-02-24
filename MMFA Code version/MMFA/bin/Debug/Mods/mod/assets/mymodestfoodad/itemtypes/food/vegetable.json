@@ -1,0 +1,116 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{
+			"code": "vegetable",
+			"states": [ "garlichead" ]
+		}
+	],
+	"attributesByType": {
+		"*-garlichead*": {}
+	},
+
+	"shapebytype": {
+		"*-garlichead*": { "base": "mymodestfoodad:item/garlic/garlic_head" }
+	},
+
+	"creativeinventory": {
+		"general": [ "*" ],
+		"items": [ "*" ]
+	},
+	"nutritionPropsByType": {
+		"*-garlichead": {
+			"satiety": 20,
+			"foodcategory": "Vegetable"
+		}
+	},
+	"transitionablePropsByType": {
+		"*-garlichead": [
+			{
+				"type": "Perish",
+				"freshHours": { "avg": 340 },
+				"transitionHours": { "avg": 72 },
+				"transitionedStack": {
+					"type": "item",
+					"code": "game:rot"
+				},
+				"transitionRatio": 0.5
+			}
+		]
+	},
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-garlichead": {
+			"translation": {
+				"x": 7,
+				"y": -7,
+				"z": 0
+			},
+			"rotation": {
+				"x": -18,
+				"y": 22,
+				"z": -141
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.32,
+				"z": 0.5
+			},
+			"scale": 3.42
+		}
+	},
+
+	"fpHandTransformByType": {
+		"*-garlichead": {
+			"rotation": {
+				"x": 51,
+				"y": 90,
+				"z": -30
+			},
+			"scale": 1.9
+		}
+	},
+
+	"tpHandTransformByType": {
+		"*-garlichead": {
+			"translation": {
+				"x": -0.8,
+				"y": -0.16,
+				"z": -0.6
+			},
+			"rotation": {
+				"x": 0,
+				"y": -1,
+				"z": -90
+			},
+			"origin": {
+				"x": 0.5,
+				"y": 0.1,
+				"z": 0.5
+			},
+			"scale": 0.83
+		}
+	},
+
+	"groundTransformByType": {
+		"*-garlichead": {
+			"translation": {
+				"x": 0.3,
+				"y": 0.45,
+				"z": 0.2
+			},
+			"rotation": {
+				"x": 0,
+				"y": 0,
+				"z": -90
+			},
+			"origin": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"scale": 3.7
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	code: "sourdough",
+	sealHours: 72,
+	ingredients: [
+		{
+			"type": "item",
+			"code": "game:waterportion",
+			"litres": 1
+		},
+		{
+			type: "item",
+			code: "game:dough-*",
+			name: "grain",
+			quantity: 1,
+			allowedVariants: [ "spelt", "rye", "flax", "amaranth"]
+		}
+	],
+	output: { type: "item", code: "mymodestfoodad:sourdough", quantity: 10}
+}

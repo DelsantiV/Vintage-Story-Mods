@@ -1,0 +1,20 @@
+[
+    	{
+		"file": "game:entities/land/wolf-male",
+		"op": "replace",
+		"path": "/server/behaviors/9/aitasks/4/seekingRange",
+		"value": 7
+	},
+	{
+		"file": "game:entities/land/wolf-female",
+		"op": "replace",
+		"path": "/server/behaviors/10/aitasks/4/seekingRange",
+		"value": 7
+	},
+	{
+		"file": "game:entities/land/bear",
+		"op": "replace",
+		"path": "/server/behaviors/9/aitasks/4/seekingRange",
+		"value": 15
+	}
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-partbaked/bakingProperties/initialCode",
+    "file": "game:itemtypes/food/bread.json",
+    "value" : "mymodestfoodad:leaveneddough-{type}"
+  },
+
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "file": "game:itemtypes/food/bread.json",
+    "value" : {
+		"*-flax-partbaked": { saturation: 250, foodcategory: "Grain" },
+		"*-flax-perfect": { saturation: 600, foodcategory: "Grain" },
+		"*-flax-charred": { saturation: 430, foodcategory: "Grain" },
+		
+		"*-rice-partbaked": { saturation: 550, foodcategory: "Grain" },
+		"*-rice-perfect": { saturation: 1100, foodcategory: "Grain" },
+		"*-rice-charred": { saturation: 750, foodcategory: "Grain" },
+		
+		"*-partbaked": { saturation: 500, foodcategory: "Grain" },
+		"*-perfect": { saturation: 1000, foodcategory: "Grain" },
+		"*-charred": { saturation: 660, foodcategory: "Grain" }
+	      }
+  },
+
+  {
+    "op": "replace",
+    "path": "/combustibleProps",
+    "value": {
+	meltingPoint: 200,
+	meltingDuration: 20,
+	smeltedRatio: 1,
+	smeltingType: "bake",
+	smeltedStack: { type: "item", code: "bread-{type}-charred" },
+	requiresContainer: false 
+	},
+    "file": "game:itemtypes/food/dough.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/bakingProperties",
+    "value": {
+	temp: 160,
+	levelFrom: 0.0,
+	levelTo: 0.25,
+	startScaleY: 1,
+	endScaleY: 0.6,
+	resultCode: "mymodestfoodad:flatbread-{type}-partbaked",
+	},
+    "file": "game:itemtypes/food/dough.json"
+  },
+  {
+    "op": "replace",
+    "path": "/shape",
+    "value": {base : "mymodestfoodad:item/bread/dough"},
+    "file": "itemtypes/food/dough.json"
+  },
+  {
+    "op": "replace",
+    "path": "/textures",
+    "value": {"dough" : {base : "item/food/grain/{type}bread"}},
+    "file": "itemtypes/food/dough.json"
+  }
+]

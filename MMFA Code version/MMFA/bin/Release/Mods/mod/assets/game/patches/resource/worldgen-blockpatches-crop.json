@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "comment": "Small patches of garlic",
+      "blockCodes": [
+        "mymodestfoodad:crop-garlic-2",
+        "mymodestfoodad:crop-garlic-4",
+        "mymodestfoodad:crop-garlic-6",
+        "mymodestfoodad:crop-garlic-7",
+        "mymodestfoodad:crop-garlic-5"
+      ],
+      "minTemp": 2,
+      "maxTemp": 32,
+      "minRain": 0.26,
+      "maxRain": 0.83,
+      "maxForest": 0.8,
+      "quantity": {
+        "avg": 8,
+        "var": 3
+      },
+      "chance": 0.04
+    },
+    "file": "worldgen/blockpatches/crop.json"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "item-vegetable-garlichead": "Head of garlic",
+  "item-seeds-garlic": "Garlic seeds",
+  "block-crop-garlic-*": "Growing garlic",
+  "block-crop-garlic-7": "Mature garlic",
+
+  "item-flatbread-spelt-perfect": "Spelt flatbread",
+  "item-flatbread-rye-perfect": "Rye flatbread",
+  "item-flatbread-flax-perfect": "Flax flatbread",
+  "item-flatbread-rice-perfect": "Rice flatbread",
+  "item-flatbread-cassava-perfect": "Cassava flatbread",
+  "item-flatbread-amaranth-perfect": "Amaranth flatbread",
+  "item-flatbread-sunflower-perfect": "Sunflower flatbread",
+  "item-flatbread-spelt-partbaked" : "Spelt flatbread (part-baked)",
+  "item-flatbread-rye-partbaked" : "Rye flatbread (part-baked)",
+  "item-flatbread-flax-partbaked" : "Flax flatbread (part-baked)",
+  "item-flatbread-rice-partbaked" : "Rice flatbread (part-baked)",
+  "item-flatbread-cassava-partbaked" : "Cassava flatbread (part-baked)",
+  "item-flatbread-amaranth-partbaked" : "Amaranth flatbread (part-baked)",
+  "item-flatbread-sunflower-partbaked": "Sunflower flatbread (part-baked)",
+  "item-flatbread-spelt-charred" : "Spelt flatbread (charred)",
+  "item-flatbread-rye-charred" : "Rye flatbread (charred)",
+  "item-flatbread-flax-charred" : "Flax flatbread (charred)",
+  "item-flatbread-rice-charred" : "Rice flatbread (charred)",
+  "item-flatbread-cassava-charred" : "Cassava flatbread (charred)",
+  "item-flatbread-amaranth-charred" : "Amaranth flatbread (charred)",
+  "item-flatbread-sunflower-charred": "Sunflower flatbread (charred)",
+
+  "item-leaveneddough-spelt": "Spelt dough (leavened)",
+  "item-leaveneddough-sunflower": "Sunflower dough (leavened)",
+  "item-leaveneddough-rye": "Rye dough (leavened)",
+  "item-leaveneddough-flax": "Flax dough (leavened)",
+  "item-leaveneddough-rice": "Rice dough (leavened)",
+  "item-leaveneddough-cassava": "Cassava dough (leavened)",
+  "item-leaveneddough-amaranth": "Amaranth dough (leavened)",
+
+  "item-sourdough" : "Sourdough"
+}

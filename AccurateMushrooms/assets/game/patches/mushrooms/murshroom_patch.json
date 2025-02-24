@@ -1,0 +1,279 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes",
+    "file": "game:blocktypes/plant/mushroom.json",
+    "value": {
+      "mushroomProps": {
+        "dieWhenTempBelow": 0,
+        "dieAfterFruiting": true
+      },
+      "forageStatAffected": true,
+      "nutritionPropsWhenInMeal": {
+        "satietyByType": {
+          "*-flyagaric-*": 100,
+          "*-fieldmushroom-*": 150,
+          "*-blacktrumpet-*": 150,
+          "*-chanterelle-*": 150,
+          "*-commonmorel-*": 150,
+          "*-earthball-*": 80,
+          "*-deathcap-*": 120,
+          "*-elfinsaddle-*": 100,
+          "*-greencrackedrussula-*": 150,
+          "*-indigomilkcap-*": 90,
+          "*-jackolantern-*": 80,
+          "*-devilbolete-*": 100,
+          "*-bitterbolete-*": 80,
+          "*-devilstooth-*": 80,
+          "*-golddropmilkcap-*": 80,
+          "*-kingbolete-*": 200,
+          "*-lobster-*": 140,
+          "*-orangeoakbolete-*": 110,
+          "*-puffball-*": 100,
+          "*-redwinecap-*": 110,
+          "*-saffronmilkcap-*": 130,
+          "*-violetwebcap-*": 100,
+          "*-witchhat-*": 100,
+          "*": 0
+        },
+        "foodcategory": "Vegetable",
+        "healthByType": {
+          "*-flyagaric-*": -6.5,
+          "*-almondmushroom-*": 1.5,
+          "*-earthball-*": -6,
+          "*-deathcap-*": -50,
+          "*-jackolantern-*": -5,
+          "*-devilbolete-*": -3,
+          "*-bitterbolete-*": -1,
+          "*-devilstooth-*": -1,
+          "*-golddropmilkcap-*": -1.5,
+          "*": 0
+        }
+      },
+      "plantContainable": {
+        "smallContainer": {
+          "randomRotate": false,
+          "shape": { "base": "block/plant/mushroom/{mushroom}/flowerpot/normal*" }
+        },
+        "largeContainer": {
+          "randomRotate": false,
+          "shape": { "base": "block/plant/mushroom/{mushroom}/planter/normal*" }
+        }
+      }
+    }
+  },
+
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "file": "game:blocktypes/plant/mushroom.json",
+    "value": {
+      "*-flyagaric-*": {
+        "saturation": 80,
+        "health": -6.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-fieldmushroom-*": {
+        "saturation": 100,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-almondmushroom-*": {
+        "saturation": 100,
+        "health": 1,
+        "foodcategory": "Vegetable"
+      },
+      "*-commonmorel-*": {
+        "saturation": 80,
+        "health": -10,
+        "foodcategory": "Vegetable"
+      },
+      "*-earthball-*": {
+        "saturation": 50,
+        "health": -8,
+        "foodcategory": "Vegetable"
+      },
+      "*-deathcap-*": {
+        "saturation": 80,
+        "health": -50,
+        "foodcategory": "Vegetable"
+      },
+      "*-elfinsaddle-*": {
+        "saturation": 50,
+        "health": -7,
+        "foodcategory": "Vegetable"
+      },
+      "*-greencrackedrussula-*": {
+        "saturation": 100,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-indigomilkcap-*": {
+        "saturation": 70,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-jackolantern-*": {
+        "saturation": 40,
+        "health": -6,
+        "foodcategory": "Vegetable"
+      },
+      "*-devilbolete-*": {
+        "saturation": 60,
+        "health": -10,
+        "foodcategory": "Vegetable"
+      },
+      "*-bitterbolete-*": {
+        "saturation": 60,
+        "health": -2,
+        "foodcategory": "Vegetable"
+      },
+      "*-devilstooth-*": {
+        "saturation": 60,
+        "health": -2,
+        "foodcategory": "Vegetable"
+      },
+      "*-golddropmilkcap-*": {
+        "saturation": 50,
+        "health": -2.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-kingbolete-*": {
+        "saturation": 120,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-orangeoakbolete-*": {
+        "saturation": 70,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-puffball-*": {
+        "saturation": 65,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-redwinecap-*": {
+        "saturation": 75,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-violetwebcap-*": {
+        "saturation": 55,
+        "health": -1,
+        "foodcategory": "Vegetable"
+      },
+      "*-witchhat-*": {
+        "saturation": 55,
+        "health": -1,
+        "foodcategory": "Vegetable"
+      },
+      "*": {
+        "saturation": 80,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      }
+    }
+  },
+
+
+
+  {
+    "op": "replace",
+    "path": "/attributes",
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "value": {
+      "mushroomProps": {
+        "dieWhenTempBelowByType": {
+          "*-tinderhoof-*": -99,
+          "*": 0
+        },
+        "dieAfterFruitingByType": {
+          "*-tinderhoof-*": false,
+          "*": true
+        }
+      },
+      "forageStatAffected": true,
+      "shadeTolerant": true,
+      "nutritionPropsWhenInMeal": {
+        "satietyByType": {
+          "*-funeralbell-*": 120,
+          "*-pinkbonnet-*": 90,
+          "*-beardedtooth-*": 150,
+          "*-chickenofthewoods-*": 150,
+          "*-pinkoyster-*": 140,
+          "*-tinderhoof-*": 100,
+          "*-reishi-*": 80,
+          "*-deerear-*": 110,
+          "*-shiitake-*": 130,
+          "*": 0
+        },
+        "foodcategory": "Vegetable",
+        "healthByType": {
+          "*-funeralbell-*": -40,
+          "*-reishi-*": 3,
+          "*-shiitake-*": 1.5,
+          "*": 0
+        }
+      }
+    }
+  },
+
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType",
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "value": {
+      "*-funeralbell-*": {
+        "saturation": 80,
+        "health": -40,
+        "foodcategory": "Vegetable"
+      },
+      "*-pinkbonnet-*": {
+        "saturation": 55,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-beardedtooth-*": {
+        "saturation": 100,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-chickenofthewoods-*": {
+        "saturation": 100,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-pinkoyster-*": {
+        "saturation": 90,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-tinderhoof-*": {
+        "saturation": 65,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-reishi-*": {
+        "saturation": 45,
+        "health": 1.5,
+        "foodcategory": "Vegetable"
+      },
+      "*-deerear-*": {
+        "saturation": 75,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      },
+      "*-shiitake-*": {
+        "saturation": 35,
+        "health": -2,
+        "foodcategory": "Vegetable"
+      },
+      "*": {
+        "saturation": 80,
+        "health": 0,
+        "foodcategory": "Vegetable"
+      }
+    }
+  }
+]
