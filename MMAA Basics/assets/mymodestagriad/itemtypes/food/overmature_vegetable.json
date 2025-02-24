@@ -51,7 +51,7 @@
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {
 		"*-overmaturecabbage": { satiety: 60, foodcategory: "Vegetable" },
-		"*": { satiety: 40, foodcategory: "Vegetable" },
+		"*": { satiety: 20, foodcategory: "Vegetable" },
 	},
 	transitionablePropsByType: {
 		"*-overmatureonion": [{

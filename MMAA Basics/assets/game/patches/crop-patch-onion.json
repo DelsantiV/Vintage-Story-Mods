@@ -92,7 +92,7 @@
   {
     "op": "replace",
     "path": "/cropProps/totalGrowthMonths",
-    "file": "game:blocktypes/plant/crop/flax.json",
+    "file": "game:blocktypes/plant/crop/onion.json",
     "value" : 2
   }
 ]

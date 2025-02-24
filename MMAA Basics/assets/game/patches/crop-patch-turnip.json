@@ -75,7 +75,7 @@
 			{ type: "item", code: "seeds-turnip", quantity: { avg: 0.1 }  },
 		],
 		"*-6": [
-			{ type: "item", code: "seeds-turnip", quantity: { avg: 4 }  },
+			{ type: "item", code: "seeds-turnip", quantity: { avg: 5, var: 2 }  },
 			{ type: "item", code: "mymodestagriad:vegetable-overmatureturnip", quantity: { avg: 4, var: 1 }  },
 		],
 		"*": [

@@ -80,7 +80,7 @@
 		],
 		"*-9": [
     			{ type: "item", code: "mymodestagriad:vegetable-overmatureparsnip", quantity: { avg: 6, var: 2 }  },
-			{ type: "item", code: "seeds-parsnip", quantity: { avg: 4 }  },
+			{ type: "item", code: "seeds-parsnip", quantity: { avg: 5, var : 2 }  },
 		],
 		"*": [
 			{ type: "item", code: "seeds-parsnip", quantity: { avg: 0.1 }  },

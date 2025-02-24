@@ -5,7 +5,7 @@
     "file": "game:blocktypes/plant/crop/rye.json",
     "value" : {
 		"*-9": [
-			{ type: "item", code: "seeds-rye", quantity: { avg: 1 }  },
+			{ type: "item", code: "seeds-rye", quantity: { avg: 1.2 }  },
 			{ type: "item", code: "grain-rye", quantity: { avg: 6, var: 1 }  },
 		],
 		"*": [
