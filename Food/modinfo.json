@@ -1,9 +1,0 @@
-{
-  "type": "content",
-  "name": "My Modets Food Adjustments",
-  "description" : "A simple mod I created to tweak some features related to food in Vintage Story",
-  "author": "Warang",
-  "version": "1.0.0",
-  "gameversions": [ "1.5.0.3+" ],
-  "website": "http://example.com"
-}

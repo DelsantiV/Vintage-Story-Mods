@@ -1,7 +1,0 @@
-{
-  "dotnet.defaultSolution": "ModTemplate.sln",
-  "files.associations": {
-    "server-*.txt": "log",
-    "client-*.txt": "log"
-  }
-}
