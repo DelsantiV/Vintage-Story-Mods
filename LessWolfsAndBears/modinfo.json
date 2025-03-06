@@ -4,8 +4,5 @@
   "name": "Easier Wolfs and Bears",
   "authors": ["Warang"],
   "description": "Reduces Wolfs and Bears spawns to make forest less deadly for players. Also reduces seeking range for these creatures.",
-  "version": "1.0.0",
-  "dependencies": {
-    "game": "1.20.*"
-  }
+  "version": "1.0.0"
 }
