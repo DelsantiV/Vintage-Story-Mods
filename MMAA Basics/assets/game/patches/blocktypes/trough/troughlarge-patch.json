@@ -59,6 +59,17 @@
 				"maxFillLevels": 8,
 				"shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
 				"textureCode": "contents-spelt-soaked"
+			},
+			{
+				"code": "sunflower-dried",
+				"content": {
+					"type": "item",
+					"code": "mymodestagriad:grain-sunflower-dried"
+				},
+				"quantityPerFillLevel": 2,
+				"maxFillLevels": 8,
+				"shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+				"textureCode": "contents-sunflower-dried"
 			}
 		]
 	},
@@ -149,6 +160,15 @@
 		"file": "game:blocktypes/wood/trough-large.json",
 		"value": {
 			"base": "mymodestagriad:spelt/spelt_soaked",
+			"overlays": [ "game:block/wood/trough/large/shadow" ]
+		}
+	},
+	{
+		"op": "addmerge",
+		"path": "/textures/contents-sunflower-dried",
+		"file": "game:blocktypes/wood/trough-large.json",
+		"value": {
+			"base": "mymodestagriad:sunflower/sunflower_dried",
 			"overlays": [ "game:block/wood/trough/large/shadow" ]
 		}
 	}
