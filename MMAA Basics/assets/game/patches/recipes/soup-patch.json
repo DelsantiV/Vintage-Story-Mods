@@ -1,0 +1,38 @@
+[
+	{
+		"op": "addeach",
+		"path": "/ingredients/1/validStacks/0",
+		"file": "game:recipes/cooking/soup.json",
+		"value": [
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecabbage",  shapeElement: "bowl/vegetable 1/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecarrot",  shapeElement: "bowl/vegetable 1/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureonion",  shapeElement: "bowl/vegetable 1/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureparsnip",  shapeElement: "bowl/vegetable 1/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureturnip",  shapeElement: "bowl/vegetable 1/*" }
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/2/validStacks/0",
+		"file": "game:recipes/cooking/soup.json",
+		"value": [
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecabbage",  shapeElement: "bowl/vegetable 2/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecarrot",  shapeElement: "bowl/vegetable 2/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureonion",  shapeElement: "bowl/vegetable 2/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureparsnip",  shapeElement: "bowl/vegetable 2/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureturnip",  shapeElement: "bowl/vegetable 2/*" }
+		]
+	},
+	{
+		"op": "addeach",
+		"path": "/ingredients/3/validStacks/0",
+		"file": "game:recipes/cooking/soup.json",
+		"value": [
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecabbage",  shapeElement: "bowl/vegetable 3/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmaturecarrot",  shapeElement: "bowl/vegetable 3/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureonion",  shapeElement: "bowl/vegetable 3/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureparsnip",  shapeElement: "bowl/vegetable 3/*" },
+			{ type: "item", code: "mymodestagriad:vegetable-overmatureturnip",  shapeElement: "bowl/vegetable 3/*" }
+		]
+	}
+]

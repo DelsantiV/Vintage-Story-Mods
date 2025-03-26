@@ -1,0 +1,8 @@
+[ 
+  {
+    "op": "replace",
+    "path": "/textures/contents-flax/base",
+    "file": "game:blocktypes/wood/trough-small.json",
+    "value" : "mymodestagriad:flax/flax_fresh"
+  }
+]

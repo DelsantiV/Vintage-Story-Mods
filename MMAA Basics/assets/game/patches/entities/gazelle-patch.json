@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/creatureDiet/skipFoodTags",
+    "file": "game:entities/land/gazelle.json",
+    "value":["grain-dried", "parsnip"]
+  }
+]

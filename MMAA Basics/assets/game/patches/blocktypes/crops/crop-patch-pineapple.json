@@ -1,0 +1,33 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType",
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "value" : {
+		"*-11": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.99 }  }
+		],
+		"*-12": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.99 }  }
+		],
+		"*-13": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.99 }  }
+		],
+		"*-14": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.99 }  }
+		],
+		"*-15": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.99 }  }
+		],
+		"*-16": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 1.2 }  },
+			{ type: "block", code: "pineapple", quantity: { avg: 1, var: 0 }  },
+		],
+		"*": [
+			{ type: "item", code: "seeds-pineapple", quantity: { avg: 0.7 }  },
+		]
+
+	},
+  },  
+]
+

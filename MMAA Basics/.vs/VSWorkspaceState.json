@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\assets",
+    "\\assets\\game",
+    "\\assets\\game\\patches",
+    "\\assets\\game\\patches\\blocktypes",
+    "\\assets\\game\\patches\\blocktypes\\trough",
+    "\\assets\\mymodestagriad",
+    "\\assets\\mymodestagriad\\lang",
+    "\\assets\\mymodestagriad\\recipes",
+    "\\assets\\mymodestagriad\\recipes\\barrel"
+  ],
+  "SelectedNode": "\\assets\\game\\patches\\blocktypes\\trough\\trough-patch.json",
+  "PreviewInSolutionExplorer": false
+}
