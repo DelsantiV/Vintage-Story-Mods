@@ -1,0 +1,271 @@
+{
+	code: "soup",
+	perishableProps: {
+		freshHours: { avg: 144 },
+		transitionHours: { avg: 36 },
+		transitionRatio: 1,
+		transitionedStack: { type: "item", code: "rot" }
+	},
+	shape: { base: "game:block/food/meal/porridge" },
+	ingredients: [
+		{
+			"code": "water",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:waterportion",
+					"shapeElement": "game:bowl/water"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1,
+			"portionSizeLitres": 1
+		},
+		{
+			"code": "grain-base",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "mymodestagriad:grain-amaranth-dried",
+					"shapeElement": "game:bowl/grain/amaranth"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:grain-flax-dried",
+					"shapeElement": "game:bowl/grain/flax"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:grain-rice-dried",
+					"shapeElement": "game:bowl/grain/rice"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:grain-rye-dried",
+					"shapeElement": "game:bowl/grain/rye"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:grain-spelt-dried",
+					"shapeElement": "game:bowl/grain/spelt"
+				}
+			],
+			"minQuantity": 1,
+			"maxQuantity": 1
+		},
+		{
+			"code": "fruit-extra",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:fruit-*",
+					"shapeElement": "game:bowl/fruit 1/*"
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1
+		},
+		{
+			"code": "fruit-extra-2",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:fruit-*",
+					"shapeElement": "game:bowl/fruit 2/*"
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1
+		},
+		{
+			"code": "vegetable-extra",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:vegetable-cabbage",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-carrot",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-onion",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-parsnip",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-turnip",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-pumpkin",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-cassava",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-bellpepper",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "game:mushroom-*",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmaturecabbage",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmaturecarrot",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureonion",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureparsnip",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureturnip",
+					"shapeElement": "game:bowl/vegetable 1/*"
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1
+		},
+		{
+			"code": "vegetable-extra-2",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:vegetable-cabbage",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-carrot",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-onion",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-parsnip",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-turnip",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-pumpkin",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-cassava",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:vegetable-bellpepper",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:mushroom-*",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "game:pickledvegetable-*",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmaturecabbage",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmaturecarrot",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureonion",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureparsnip",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				},
+				{
+					"type": "item",
+					"code": "mymodestagriad:vegetable-overmatureturnip",
+					"shapeElement": "game:bowl/vegetable 2/*"
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1
+		},
+		{
+			code: "protein-extra", 
+			validStacks: [ 
+				{ type: "item", code: "game:redmeat-raw", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:redmeat-cured", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:poultry-raw", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:poultry-cured", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:egg-chicken-raw", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:fish-raw", shapeElement: "game:bowl/meat/*" },
+				{ type: "item", code: "game:fish-cured", shapeElement: "game:bowl/meat/*" },
+			],
+			minQuantity: 0,
+			maxQuantity: 2,
+		},
+		{
+			"code": "topping",
+			"validStacks": [
+				{
+					"type": "item",
+					"code": "game:honeyportion",
+					"shapeElement": "game:bowl/topping/*",
+					"cookedStack": {
+						"type": "item",
+						"code": "game:jamhoneyportion"
+					}
+				}
+			],
+			"minQuantity": 0,
+			"maxQuantity": 1,
+			"portionSizeLitres": 0.2
+		}
+	]
+}

@@ -1,0 +1,103 @@
+[
+  {
+    "op": "replace",
+    "path": "/variantgroups",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : [
+		{ code: "type", states: ["carrot"] },
+		{ code: "stage", states: ["1", "2", "3", "4", "5", "6", "7", "8"] },
+	],
+  },
+  {
+    "op": "addmerge",
+    "path" : "/shapeByType",
+    "file": "game:blocktypes/plant/crop/carrot.json", 
+    "value": {
+        "*-8": { base: "mymodestagriad:crop/carrot/stage8" },
+    }
+  },
+  {
+    "op": "move",
+    "frompath": "/shapeByType/*",
+    "path": "/temp",
+    "file": "game:blocktypes/plant/crop/carrot.json"
+  },
+  {
+    "op": "move",
+    "frompath": "/temp",
+    "path": "/shapeByType/*",
+    "file": "game:blocktypes/plant/crop/carrot.json"
+  },
+  {
+    "op": "addmerge",
+    "path" : "/texturesByType",
+    "file": "game:blocktypes/plant/crop/carrot.json", 
+    "value": {
+        "*-8": {
+            "s": { base: "mymodestagriad:carrot/s8" },
+    		"e": { base: "mymodestagriad:carrot/e8" },
+    	},
+        "*": {
+            "s": { base: "block/plant/crop/carrot/s{stage}" },
+    		"e": { base: "block/plant/crop/carrot/e{stage}" },
+        }
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/butterflyFeedByType",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : {
+			"*-1": false,
+			"*-7": false,
+			"*-8": false,
+			"*": true
+	}
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/beeFeedByType",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : {
+			"*-1": false,
+			"*-7": false,
+			"*-8": false,
+			"*": true
+	}
+  }, 
+  {
+    "op": "replace",
+    "path": "/dropsByType",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : {
+		"*-6": [
+			{ type: "item", code: "vegetable-carrot", quantity: { avg: 1, var: 1 }  },
+			{ type: "item", code: "seeds-carrot", quantity: { avg: 0.1 }  },
+		],
+		"*-7": [
+			{ type: "item", code: "vegetable-carrot", quantity: { avg: 6, var: 2 }  },
+			{ type: "item", code: "seeds-carrot", quantity: { avg: 0.1 }  },
+		],
+		"*-8": [
+    			{ type: "item", code: "mymodestagriad:vegetable-overmaturecarrot", quantity: { avg: 6, var: 2 }  },
+			{ type: "item", code: "seeds-carrot", quantity: { avg: 3, var: 1 }  },
+		],
+		"*": [
+			{ type: "item", code: "seeds-carrot", quantity: { avg: 0.1 }  },
+		],
+	},
+  },  
+  {
+    "op": "replace",
+    "path": "/cropProps/growthStages",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : 8
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "file": "game:blocktypes/plant/crop/carrot.json",
+    "value" : 1.6
+  }
+]
+

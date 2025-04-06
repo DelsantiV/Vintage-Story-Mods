@@ -4,13 +4,13 @@
     "\\assets",
     "\\assets\\game",
     "\\assets\\game\\patches",
-    "\\assets\\game\\patches\\blocktypes",
-    "\\assets\\game\\patches\\blocktypes\\trough",
+    "\\assets\\game\\patches\\itemtypes",
     "\\assets\\mymodestagriad",
-    "\\assets\\mymodestagriad\\lang",
+    "\\assets\\mymodestagriad\\itemtypes",
+    "\\assets\\mymodestagriad\\itemtypes\\food",
     "\\assets\\mymodestagriad\\recipes",
     "\\assets\\mymodestagriad\\recipes\\barrel"
   ],
-  "SelectedNode": "\\assets\\game\\patches\\blocktypes\\trough\\trough-patch.json",
+  "SelectedNode": "\\assets\\mymodestagriad\\itemtypes\\food\\transitionable_grain.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,200 @@
+{
+	code: "vegetable",
+	maxstacksize: 64,
+	behaviors: [
+		{ name: "GroundStorable", properties: { layout: 'Quadrants', collisionBox: { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	attributesByType: {
+		"*-overmaturecabbage": {
+			inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
+			nutritionPropsWhenInMeal: { satiety: 150, foodcategory: "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+		},
+		"*-overmatureonion": {
+			foodTags: ["{type}"],
+			inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
+			nutritionPropsWhenInMeal: { satiety: 50, foodcategory: "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
+			groundStorageTransform: {
+				translation: { x: -0.3, y: -0.45, z: 0.2 },
+				rotation: { x: 0, y: 33, z: 90 }
+			}
+		},
+		"*": {
+			foodTags: ["{type}"],
+			inContainerTexture: { base: "block/wood/barrel/raw-{type}" },
+			nutritionPropsWhenInMeal: { satiety: 50, foodcategory: "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' },
+			groundStorageTransform: {
+				translation: { x: -0.2, y: -0.45, z: 0.1 },
+				rotation: { x: 0, y: 33, z: 90 }
+			}
+		}
+	},
+	variantgroups: [
+		{ code: "type", states: ["overmaturecarrot", "overmaturecabbage", "overmatureonion", "overmatureturnip", "overmatureparsnip", "cassava"
+		  ] }
+	],
+	shapebytype: {
+		"*-overmaturecabbage": { base: "mymodestagriad:item/overmaturecabbage" },
+		"*-overmaturecarrot": { "base": "mymodestagriad:item/overmaturecarrot" },
+		"*-overmatureonion": { base: "mymodestagriad:item/overmatureonion" },
+		"*-overmatureparsnip": { base: "mymodestagriad:item/overmatureparsnip" },
+		"*-overmatureturnip": { base: "mymodestagriad:item/overmatureturnip" },
+	},
+	heldTpIdleAnimationByType: {
+		"*-overmaturecabbage": "holdbothhandslarge",
+	},
+	heldRightReadyAnimationByType: {
+		"*-overmaturecabbage": "holdbothhandslarge"
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	nutritionPropsByType: {
+		"*-overmaturecabbage": { satiety: 60, foodcategory: "Vegetable" },
+		"*": { satiety: 40, foodcategory: "Vegetable" },
+	},
+	transitionablePropsByType: {
+		"*-overmatureonion": [{
+			type: "Perish",
+			freshHours: { avg: 672 },
+			transitionHours: { avg: 120 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}],
+		"*": [{
+			type: "Perish",
+			freshHours: { avg:  504 },
+			transitionHours: { avg: 96 },
+			transitionedStack: { type: "item", code: "game:rot" },
+			transitionRatio: 0.5
+		}]
+	},
+	materialDensity: 600,
+	guiTransformByType: {
+		"*-overmaturecabbage": {
+			translation: { x: 2.5, y: 1, z: 0 },
+			rotation: { x: 137, y: 131, z: 0 },
+			origin: { x: 0.5, y: 0.2, z: 0.5 },
+			scale: 2.6
+		},
+		"*-overmaturecarrot": {
+			translation: { x: 2, y: 1, z: 0 },
+			rotation: { x: 180, y: 44, z: 56 },
+			origin: { x: 0.5, y: 0.26, z: 0.5 },
+			scale: 4.4
+		},
+		"*-overmatureonion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: -37, y: 135, z: -155 },
+			origin: { x: 0.5, y: 0.15, z: 0.5 },
+			scale: 4.85
+		},
+		"*-overmatureparsnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 180, y: 43, z: 52 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 4.44
+		},
+		"*-overmatureturnip": {
+			translation: { x: 2, y: 2, z: 0 },
+			rotation: { x: 180, y: 158, z: 38 },
+			origin: { x: 0.5, y: 0.23, z: 0.5 },
+			scale: 3.6
+		}
+	},
+	fpHandTransformByType: {
+		"*-overmaturecabbage": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 51, y: 90, z: -30 },
+			scale: 1.9
+		},
+		"*-overmaturecarrot": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-overmatureonion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-overmatureparsnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		},
+		"*-overmatureturnip":	{
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 45, y: 47, z: -30 },
+			origin: { x: 0.5, y: 0.3, z: 0.5 },
+			scale: 1.9
+		}
+	},
+	tpHandTransformByType: {
+		"*-overmaturecabbage": {
+			translation: { x: -0.6, y: 0.06, z: -0.38 },
+			rotation: { x: -33, y: 9, z: -95 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.79
+		},
+		"*-overmaturecarrot": {
+			translation: { x: -0.57, y: -0.14, z: -0.56 },
+			rotation: { x: 0, y: 0, z: -89 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.88
+		},
+		"*-overmatureonion": {
+			translation: { x: -0.75, y: -0.13, z: -0.57 },
+			rotation: { x: 0, y: 0, z: -67 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.84
+		},
+		"*-overmatureparsnip": {
+			translation: { x: -0.57, y: -0.14, z: -0.56 },
+			rotation: { x: 0, y: 0, z: -89 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.88
+		},
+		"*-overmatureturnip": {
+			translation: { x: -0.68, y: -0.18, z: -0.6 },
+			rotation: { x: 0, y: 0, z: -84 },
+			origin: { x: 0.5, y: 0.1, z: 0.5 },
+			scale: 0.8
+		}
+	},
+	groundTransformByType: {
+		"*-overmaturecabbage": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			origin: { x: 0.5, y: 0, z: 0.5 },
+			scale: 3.5
+		},
+		"*-overmaturecarrot": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-overmatureonion": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-overmatureparsnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 83 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 4.3
+		},
+		"*-overmatureturnip": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 0, y: 0, z: 75 },
+			origin: { x: 0.47, y: 0, z: 0.5 },
+			scale: 3.8
+		}
+	}
+}

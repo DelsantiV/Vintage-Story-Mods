@@ -1,0 +1,11 @@
+{
+    "type": "content",
+    "modid": "mymodestagriad",
+    "name": "My Modest Agriculture Adjustments",
+    "authors": [
+        "Warang",
+	"Arwen"
+    ],
+    "description": "A code mod we created to tweak some features related to agriculture in Vintage Story",
+    "version": "1.0.0"
+}
