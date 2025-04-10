@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributesByType/*-onion/nutritionPropsWhenInMeal/satiety",
+    "file": "game:itemtypes/food/vegetable.json",
+    "value": 100 
+  },
+  {
+    "op": "addmerge",
+    "path": "/nutritionPropsByType/*-onion",
+    "file": "game:itemtypes/food/vegetable.json",
+    "value": { satiety: 50, foodcategory: "Vegetable" } 
+  }
+]
