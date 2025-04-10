@@ -43,7 +43,10 @@
 		"*-rice-soaked": { "foodTags": ["grain-soaked"],"nutritionPropsWhenInMeal": { satiety: 280, foodcategory: "Grain" } }, 
 		"*-soaked": { "foodTags": ["grain-{state}"], "nutritionPropsWhenInMeal": { satiety: 240, foodcategory: "Grain" }}
 	},
-	texture: { base: "game:block/food/grain/{type}-pile" },
+	textureByType: { 
+        "*-dried":  { base: "game:block/food/grain/{type}-pile"},
+        "*-soaked": { base: "mymodestagriad:{type}/{type}_soaked-pile"}
+        },
 	shape: { base: "game:item/resource/crushed/normal"  },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	nutritionPropsByType: {

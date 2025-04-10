@@ -9,6 +9,12 @@
   },
   {
     "op": "replace",
+    "path": "/texture",
+    "file": "game:itemtypes/food/grain.json",
+    "value": {base: "mymodestagriad:{type}/{type}_fresh-pile"}
+  },
+  {
+    "op": "replace",
     "path": "/transitionableProps",
     "file": "game:itemtypes/food/grain.json",
     "value": [
