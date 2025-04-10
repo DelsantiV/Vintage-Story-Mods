@@ -70,6 +70,41 @@
 				"maxFillLevels": 8,
 				"shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
 				"textureCode": "contents-sunflower-dried"
+			},
+			{
+				code: "overmaturecabbage",
+				content: { type: "item", code: "mymodestagriad:vegetable-overmaturecabbage" }, 
+				quantityPerFillLevel: 2,
+				maxFillLevels: 8,
+				shapesPerFillLevel: ["block/wood/trough/large/cabbagefill1", "block/wood/trough/large/cabbagefill1", "block/wood/trough/large/cabbagefill2", "block/wood/trough/large/cabbagefill2", "block/wood/trough/large/cabbagefill3", "block/wood/trough/large/cabbagefill3", "block/wood/trough/large/cabbagefill4", "block/wood/trough/large/cabbagefill4"],
+			},
+			{
+				code: "overmaturecarrot",
+				content: { type: "item", code: "mymodestagriad:vegetable-overmaturecarrot" }, 
+				quantityPerFillLevel: 2,
+				maxFillLevels: 8,
+				shapesPerFillLevel: ["block/wood/trough/large/carrotfill1", "block/wood/trough/large/carrotfill1", "block/wood/trough/large/carrotfill2", "block/wood/trough/large/carrotfill2", "block/wood/trough/large/carrotfill3", "block/wood/trough/large/carrotfill3", "block/wood/trough/large/carrotfill4", "block/wood/trough/large/carrotfill4"]
+			},
+			{
+				code: "overmatureonion",
+				content: { type: "item", code: "mymodestagriad:vegetable-overmatureonion" }, 
+				quantityPerFillLevel: 2,
+				maxFillLevels: 8,
+				shapesPerFillLevel: ["block/wood/trough/large/onionfill1", "block/wood/trough/large/onionfill1", "block/wood/trough/large/onionfill2", "block/wood/trough/large/onionfill2", "block/wood/trough/large/onionfill3", "block/wood/trough/large/onionfill3", "block/wood/trough/large/onionfill4", "block/wood/trough/large/onionfill4"]
+			},
+			{
+				code: "overmatureparsnip",
+				content: { type: "item", code: "mymodestagriad:vegetable-overmatureparsnip" }, 
+				quantityPerFillLevel: 2,
+				maxFillLevels: 8,
+				shapesPerFillLevel: ["block/wood/trough/large/parsnipfill1", "block/wood/trough/large/parsnipfill1", "block/wood/trough/large/parsnipfill2", "block/wood/trough/large/parsnipfill2", "block/wood/trough/large/parsnipfill3", "block/wood/trough/large/parsnipfill3", "block/wood/trough/large/parsnipfill4", "block/wood/trough/large/parsnipfill4"]
+			},
+			{
+				code: "overmatureturnip",
+				content: { type: "item", code: "mymodestagriad:vegetable-overmatureturnip" }, 
+				quantityPerFillLevel: 2,
+				maxFillLevels: 8,
+				shapesPerFillLevel: ["block/wood/trough/large/turnipfill1", "block/wood/trough/large/turnipfill1", "block/wood/trough/large/turnipfill2", "block/wood/trough/large/turnipfill2", "block/wood/trough/large/turnipfill3", "block/wood/trough/large/turnipfill3", "block/wood/trough/large/turnipfill4", "block/wood/trough/large/turnipfill4"]
 			}
 		]
 	},
