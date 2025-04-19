@@ -20,7 +20,7 @@
     "value": [
       {
         "type": "Dry",
-        "freshHours": { avg: 24 },
+        "freshHours": { avg: 6 },
         "transitionHours": { avg: 24 },
         "transitionedStack": {
           "type": "item",
