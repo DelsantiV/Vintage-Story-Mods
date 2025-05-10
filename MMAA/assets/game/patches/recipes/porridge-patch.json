@@ -1,7 +1,7 @@
 [
 	{
 		"op": "replace",
-		"path": "/ingredients/0/validStackscode",
+		"path": "/ingredients/0/validStacks/code",
 		"file": "game:recipes/cooking/porridge.json",
 		"value": "mymodestagriad:grain-*-soaked"
 	},
