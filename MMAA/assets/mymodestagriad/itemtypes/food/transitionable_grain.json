@@ -74,7 +74,7 @@
 	transitionablePropsByType: {
 		"*-soaked": [{
 				type: "Perish",
-				freshHours: { avg: 0 },
+				freshHours: { avg: 72 },
 				transitionHours: { avg: 24 },
 				transitionedStack: { type: "item", code: "game:rot" },
 				transitionRatio: 0.25
