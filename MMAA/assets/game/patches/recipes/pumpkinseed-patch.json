@@ -1,0 +1,8 @@
+[
+	{
+		"op": "replace",
+		"path": "/output/quantity",
+		"file": "game:recipes/grid/pumpkinseed.json",
+		"value": 4
+	}
+]
