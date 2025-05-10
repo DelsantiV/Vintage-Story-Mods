@@ -1,20 +1,9 @@
 [
 	{
 		"op": "replace",
-		"path": "/ingredients/0/validStacks",
+		"path": "/ingredients/0/validStackscode",
 		"file": "game:recipes/cooking/porridge.json",
-		"value": [
-			{
-				"type": "item",
-				"code": "mymodestagriad:grain-*-soaked",
-				"shapeElement": "game:bowl/grain/*"
-			},
-			{
-				"type": "item",
-				"code": "game:grain-*",
-				"shapeElement": "game:bowl/grain/*"
-			}
-		]
+		"value": "mymodestagriad:grain-*-soaked"
 	},
 	{
 		"op": "addeach",
