@@ -32,7 +32,7 @@
 		}
 	},
 	variantgroups: [
-		{ code: "type", states: ["overmaturecarrot", "overmaturecabbage", "overmatureonion", "overmatureturnip", "overmatureparsnip", "cassava"
+		{ code: "type", states: ["overmaturecarrot", "overmaturecabbage", "overmatureonion", "overmatureturnip", "overmatureparsnip"
 		  ] }
 	],
 	shapebytype: {
